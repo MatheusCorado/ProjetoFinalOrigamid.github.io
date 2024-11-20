@@ -1,5 +1,7 @@
-.header {
+.header-bg {
   background: var(--c12);
+}
+.header {
   padding: 40px 20px;
   display: flex;
   flex-wrap: wrap;
