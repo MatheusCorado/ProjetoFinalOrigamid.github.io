@@ -1,0 +1,43 @@
+:root {
+  --c12: #000000;
+  --c11: #111111;
+  --c10: #2e2e2e;
+  --c9: #404040;
+  --c8: #595959;
+  --c7: #717171;
+  --c6: #9c9c9c;
+  --c5: #b2b2b2;
+  --c4: #cccccc;
+  --c3: #dedede;
+  --c2: #ededed;
+  --c1: #f7f7f7;
+  --w: #ffffff;
+}
+body {
+  margin: 0px;
+  font-family: Poppins;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  list-style: none;
+}
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
