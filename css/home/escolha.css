@@ -20,6 +20,7 @@
 .escolha-item img {
   border-radius: 5px;
   min-width: 220px;
+  padding-bottom: 16px;
 }
 .escolha-item h3 {
   display: flex;
@@ -35,7 +36,7 @@
   width: 12px;
   background-color: var(--p1);
 }
-.escolha-item h3:hover::before {
+.escolha-item a:hover h3::before {
   display: inline-block;
   content: "";
   height: 8px;
