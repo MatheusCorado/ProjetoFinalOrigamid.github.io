@@ -22,6 +22,9 @@ body {
   margin: 0px;
   font-family: Poppins;
 }
+p {
+  font-family: Roboto;
+}
 h1,
 h2,
 h3,
