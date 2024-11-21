@@ -16,12 +16,10 @@
   align-items: end;
 }
 .introducao-info h1 {
-  color: var(--w);
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .introducao-info p {
-  color: var(--c5);
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .introducao img {
@@ -40,7 +38,7 @@
   }
   .introducao-info h1 {
     padding-top: 40px;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
   }
   .introducao-info {
     padding-bottom: 0px;
