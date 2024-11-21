@@ -25,6 +25,7 @@
 .escolha-item h3 {
   display: flex;
   align-items: center;
+  margin-bottom: 8px;
 }
 .escolha-item span {
   padding-left: 12px;
