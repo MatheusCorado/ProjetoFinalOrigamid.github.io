@@ -20,7 +20,6 @@
 .header-menu a {
   color: var(--w);
   font-size: 18px;
-  line-height: 32px;
   padding: 16px 0px;
   position: relative;
 }
