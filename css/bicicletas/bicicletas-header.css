@@ -1,0 +1,10 @@
+.bicicletas-header-bg {
+  background: var(--c11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.bicicletas-header {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

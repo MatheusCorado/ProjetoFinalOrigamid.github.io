@@ -1,0 +1,38 @@
+.bicicletas-lista {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 20px;
+}
+.bicicletas-lista-item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.bicicletas-lista-item-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bicicletas-lista-item-info h2 {
+  padding-top: 16px;
+  margin-bottom: 20px;
+  grid-column: 1/-1;
+}
+.bicicletas-lista-item-info p {
+  max-width: 44ch;
+  margin-bottom: 32px;
+  grid-column: 1/-1;
+}
+.bicicletas-lista-item-info a {
+  place-self: end;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.bicicletas-lista-lista {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px 8px;
+  margin-bottom: 16px;
+}

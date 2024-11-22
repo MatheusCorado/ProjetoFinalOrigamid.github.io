@@ -9,6 +9,9 @@
 @import url(./home/depoimento.css);
 @import url(./home/seguros.css);
 
+@import url(./bicicletas/bicicletas-header.css);
+@import url(./bicicletas/bicicletas-lista.css);
+
 @import url(./utilidades/componentes.css);
 @import url(./utilidades/tipografia.css);
 @import url(./utilidades/cores.css);

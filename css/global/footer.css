@@ -10,9 +10,6 @@
   grid-template-columns: auto 1fr 1fr;
   gap: 164px;
 }
-.footer .texto-medio {
-  text-transform: uppercase;
-}
 .footer h2 {
   padding-bottom: 32px;
 }
