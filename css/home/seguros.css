@@ -3,10 +3,6 @@
   color: var(--w);
   padding-bottom: 120px;
 }
-.seguros-bg .texto-medio-2 {
-  font-family: Poppins;
-  font-weight: 600;
-}
 .seguros-bg h1 {
   max-width: 1200px;
   padding: 60px 20px;

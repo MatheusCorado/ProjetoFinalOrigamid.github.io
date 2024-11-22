@@ -19,10 +19,7 @@
   font-weight: 900;
   margin-bottom: 32px;
 }
-.depoimento span {
-  font-family: Poppins;
-  font-weight: 600;
-}
+
 @media (min-width: 1200px) {
   .depoimento-img {
     max-height: 540px;
