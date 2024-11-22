@@ -1,5 +1,6 @@
 .botao {
   color: var(--p5);
+  display: block;
   background-image: linear-gradient(#ffbf00, #f2a50c);
   padding: 16px 32px;
   font-size: 18px;
@@ -10,6 +11,17 @@
 }
 .botao:hover {
   background-image: linear-gradient(#ffb60d, #e59317);
+}
+.seguro-botao {
+  display: block;
+  background: var(--c10);
+  color: var(--c4);
+  padding: 16px 32px;
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-weight: 600;
+  place-self: start;
 }
 @media (max-width: 800px) {
   .botao {
