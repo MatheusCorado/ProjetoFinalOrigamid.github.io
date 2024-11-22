@@ -26,6 +26,11 @@
 .seguro-botao:hover {
   background: var(--c9);
 }
+@media (max-width: 1200px) {
+  .botao {
+    font-size: 16px;
+  }
+}
 @media (max-width: 800px) {
   .botao,
   .seguro-botao {
