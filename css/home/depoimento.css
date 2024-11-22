@@ -23,7 +23,7 @@
   font-family: Poppins;
   font-weight: 600;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .depoimento-img {
     max-height: 540px;
   }

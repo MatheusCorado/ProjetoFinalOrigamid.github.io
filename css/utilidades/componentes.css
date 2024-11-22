@@ -23,12 +23,24 @@
   font-weight: 600;
   place-self: start;
 }
+.seguro-botao:hover {
+  background: var(--c9);
+}
 @media (max-width: 800px) {
-  .botao {
+  .botao,
+  .seguro-botao {
     padding: 12px 18px;
     font-size: 16px;
   }
 }
 .detalhe {
   color: var(--p1);
+}
+@media (max-width: 600px) {
+  .seguros-item .botao {
+    grid-column: 1/-1;
+  }
+  .seguros-item .seguro-botao {
+    grid-column: 1/-1;
+  }
 }
