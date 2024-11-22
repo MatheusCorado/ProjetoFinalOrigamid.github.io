@@ -12,6 +12,7 @@
 }
 .introducao-info {
   display: grid;
+  padding-top: 200px;
   padding-bottom: 240px;
   align-items: end;
 }
@@ -42,6 +43,7 @@
   }
   .introducao-info {
     padding-bottom: 0px;
+    padding-top: 20px;
   }
   .introducao img {
     width: 100%;

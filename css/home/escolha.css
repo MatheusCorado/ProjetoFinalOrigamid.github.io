@@ -60,4 +60,8 @@
   .escolha-item-info {
     padding: 10px;
   }
+  .escolha-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
