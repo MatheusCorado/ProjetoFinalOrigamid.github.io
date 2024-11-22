@@ -1,6 +1,7 @@
 .seguros-bg {
   background: var(--c11);
   color: var(--w);
+  padding-bottom: 120px;
 }
 .seguros-bg .texto-medio-2 {
   font-family: Poppins;

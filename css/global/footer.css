@@ -1,0 +1,70 @@
+.footer-bg {
+  background-color: var(--c12);
+}
+.footer {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 164px;
+}
+.footer .texto-medio {
+  text-transform: uppercase;
+}
+.footer h2 {
+  padding-bottom: 32px;
+}
+.contato-lista li {
+  padding-bottom: 8px;
+}
+.contato-lista li:nth-child(even) {
+  padding-bottom: 32px;
+  position: relative;
+}
+.contato-lista li:nth-child(even)::after {
+  content: "";
+  height: 2px;
+  top: 40px;
+  left: 0;
+  width: 360px;
+  position: absolute;
+  background-color: var(--c11);
+}
+
+.footer-redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.footer-Informações li {
+  padding-bottom: 4px;
+}
+
+.direitos {
+  max-width: 1200px;
+  padding: 0 20px;
+  padding-top: 80px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+}
+@media (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .footer-img {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .contato-lista li:nth-child(even)::after {
+    width: 260px;
+  }
+}
