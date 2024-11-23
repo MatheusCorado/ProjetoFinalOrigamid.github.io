@@ -1,0 +1,17 @@
+.seguros-header {
+  padding-top: 60px;
+}
+.seguros-header h1 {
+  padding-top: 0px;
+}
+.seguros-header h2 {
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .seguros-header {
+    padding-top: 32px;
+  }
+}
