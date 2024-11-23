@@ -27,7 +27,7 @@
   padding-top: 32px;
   display: grid;
   grid-template-columns: auto 1fr;
-  align-items: center;
+  justify-items: start;
   gap: 8px;
   padding-bottom: 60px;
   grid-template-rows: 1fr 1fr;
@@ -36,7 +36,84 @@
   grid-row: 1/-1;
 }
 .sobre-bicicleta-comprar-grid {
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
   gap: 8px;
+  background: var(--c12);
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+.sobre-bicicleta-informaçoes h2 {
+  padding-bottom: 20px;
+  display: block;
+}
+.sobre-bicicleta-informaçoes {
+  padding-bottom: 40px;
+}
+.sobre-bicicleta-informaçoes-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--c12);
+  padding: 32px;
+  gap: 32px;
+  border-radius: 5px;
+}
+.sobre-bicicleta-informaçoes-lista img {
+  padding-bottom: 5px;
+}
+.sobre-bicicleta-informaçoes-lista h2 {
+  padding-bottom: 8px;
+}
+.sobre-bicicleta-informaçoes-lista p {
+  max-width: 28ch;
+}
+.sobre-bicicleta-ficha-tecnica {
+  padding-bottom: 60px;
+}
+.sobre-bicicleta-ficha-tecnica h2 {
+  padding-bottom: 20px;
+  display: block;
+}
+.sobre-bicicleta-ficha-tecnica ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  background: var(--c12);
+  padding: 32px;
+  position: relative;
+}
+.sobre-bicicleta-ficha-tecnica li {
+  border-bottom: 1px solid var(--c11);
+  padding: 6px;
+}
+.sobre-bicicleta-ficha-tecnica li:nth-child(11) {
+  border-bottom: none;
+}
+.sobre-bicicleta-ficha-tecnica ul span:nth-child(12) {
+  border-bottom: none;
+}
+.sobre-bicicleta-ficha-tecnica ul span {
+  text-align: right;
+  border-bottom: 1px solid var(--c11);
+  padding: 6px;
+}
+@media (max-width: 800px) {
+  .sobre-bicicleta {
+    padding: 32px 20px;
+  }
+  .sobre-bicicleta-info {
+    grid-template-columns: 1fr;
+    padding: 32px 0;
+    gap: 0px;
+  }
+  .sobre-bicicleta-img {
+    grid-row: 2;
+  }
+  .sobre-bicicleta-comprar {
+    padding-bottom: 32px;
+  }
+}
+@media (max-width: 400px) {
+  .sobre-bicicleta-informaçoes-lista {
+    grid-template-columns: 1fr;
+  }
 }
