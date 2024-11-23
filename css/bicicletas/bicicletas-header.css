@@ -8,3 +8,15 @@
   padding: 0 20px;
   margin: 0 auto;
 }
+@media (max-width: 800px) {
+  .bicicletas-header-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .bicicletas-header-bg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

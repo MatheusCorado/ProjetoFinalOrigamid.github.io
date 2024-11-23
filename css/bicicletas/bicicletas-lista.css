@@ -70,8 +70,7 @@
 @media (max-width: 800px) {
   .bicicletas-lista-item {
     grid-template-columns: 1fr;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 40px 20px;
   }
   .bicicletas-bg {
     background: var(--c12);
